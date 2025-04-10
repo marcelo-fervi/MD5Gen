@@ -1,4 +1,4 @@
-﻿namespace gen5
+﻿namespace MD5Gen
 {
     partial class GenForm
     {

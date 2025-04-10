@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace gen5
+namespace MD5Gen
 {
     static class Program
     {

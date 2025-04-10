@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms;
 
-namespace gen5
+namespace MD5Gen
 {
     public partial class GenForm : Form
     {
@@ -22,7 +22,7 @@ namespace gen5
             {
                 byte[] data = hmacMD5.ComputeHash(Encoding.UTF8.GetBytes(text));
 
-                StringBuilder sBuilder = new StringBuilder();
+                StringBuilder sBuilder = new();
                 for (int i = 0; i < data.Length; i++)
                     sBuilder.Append(data[i].ToString("x2"));
 
